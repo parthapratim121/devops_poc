@@ -1,10 +1,1 @@
-CREATE SET TABLE EIM_TDCOE.jenkins_test_automate11 ,NO FALLBACK ,
-     NO BEFORE JOURNAL,
-     NO AFTER JOURNAL,
-     CHECKSUM = DEFAULT,
-     DEFAULT MERGEBLOCKRATIO
-     (
-      jenkins_ver VARCHAR(10) CHARACTER SET LATIN NOT CASESPECIFIC,
-      jenkins_user VARCHAR(10) CHARACTER SET LATIN NOT CASESPECIFIC,
-      jenkins_pass VARCHAR(10) CHARACTER SET LATIN NOT CASESPECIFIC)
-PRIMARY INDEX ( jenkins_ver );
+CREATE SET TABLE jenkins_test_automate12(jenkins_ver VARCHAR(10),jenkins_user,jenkins_pass,jenkins_scm_ver);

@@ -1,1 +1,1 @@
-CREATE SET TABLE jenkins_test_automate12(jenkins_ver VARCHAR(10),jenkins_user,jenkins_pass,jenkins_scm_ver varchar(10));
+CREATE TABLE jenkins_test_automate12(jenkins_ver VARCHAR(10),jenkins_user VARCHAR(10),jenkins_pass VARCHAR(10),jenkins_scm_ver varchar(10));

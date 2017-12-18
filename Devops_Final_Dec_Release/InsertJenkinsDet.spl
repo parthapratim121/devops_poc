@@ -1,0 +1,17 @@
+REPLACE  PROCEDURE InsertJenkinsDet (
+   IN in_jenkins_ver varchar(10),
+   IN in_jenkins_user varchar(10),
+   IN in_jenkins_pass varchar(10)
+)
+BEGIN
+   INSERT INTO jenkins_test_automate_new (
+      jenkins_ver,
+      jenkins_user,
+      jenkins_pass
+   )
+   VALUES (
+      :in_jenkins_ver,
+      :in_jenkins_user,
+      :in_jenkins_pass
+   );
+END;

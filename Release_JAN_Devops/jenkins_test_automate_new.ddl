@@ -1,0 +1,6 @@
+CREATE TABLE jenkins_test_automate_new 
+     (
+      jenkins_ver VARCHAR(10) CHARACTER SET LATIN NOT CASESPECIFIC,
+      jenkins_user VARCHAR(10) CHARACTER SET LATIN NOT CASESPECIFIC,
+      jenkins_pass VARCHAR(10) CHARACTER SET LATIN NOT CASESPECIFIC)
+;

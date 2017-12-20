@@ -29,16 +29,16 @@ then
  echo $var_len_NM_PC3
  if [ ${var_len_NM_PC3} -ge 0 ]
  then
- echo "test successfull and table jenkins_test_automate_new exits with ${var_len_NM_PC3} rows"
+ echo "**************************test successfull and table jenkins_test_automate_new exits with ${var_len_NM_PC3} rows**************************"
  rm /home/CTS462404/Jenkins_POC/Jenkins_bkp/test_result.txt
  exit 0
  else
-  echo "Failure in file check  at `date ` as no rows found "
+  echo "**************************Failure in file check  at `date ` as no rows found **************************"
   rm /home/CTS462404/Jenkins_POC/Jenkins_bkp/test_result.txt
   exit 1
  fi
 else
- echo "Failure in file check  at `date `  "
+ echo "**************************Failure in file check as table jenkins_test_automate_new does not exists at `date `  *******************"
  rm /home/CTS462404/Jenkins_POC/Jenkins_bkp/test_result.txt
  exit 1
 fi

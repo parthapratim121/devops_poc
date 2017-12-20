@@ -42,4 +42,4 @@ else
  echo "**************************Failure in file check as table jenkins_test_automate_new does not exists at `date `  *******************"
  rm /home/CTS462404/Jenkins_POC/Jenkins_bkp/test_result.txt
  exit 1
-fi
+fi 

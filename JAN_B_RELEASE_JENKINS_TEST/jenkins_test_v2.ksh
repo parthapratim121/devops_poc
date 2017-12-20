@@ -1,3 +1,4 @@
+ #sh built_test.sh
 bteq << EOF 1>>/dev/null 2>>/home/CTS462404/Jenkins_POC/Jenkins_bkp/error_log_test.txt
 .logon 10.243.115.119/cts595195,password
 .SET ECHOREQ OFF

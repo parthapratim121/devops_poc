@@ -1,4 +1,4 @@
-CREATE TABLE   jenkins_test_automate_100
+CREATE TABLE jenkins_test_automate_100
      (
       jenkins_ver VARCHAR(10) CHARACTER SET LATIN NOT CASESPECIFIC,
       jenkins_user VARCHAR(10) CHARACTER SET LATIN NOT CASESPECIFIC,
